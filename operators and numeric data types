@@ -1,0 +1,108 @@
+### Operators and Numeric data types
+
+
+## 1. Arithmetic Operators:
+
++: Addition
+-: Subtraction
+*: Multiplication
+/: Division
+%: Modulus (remainder)
+**: Exponentiation (power)
+//: Floor Division (quotient, rounded down)
+Example:
+
+python
+Copy code
+a = 10
+b = 3
+
+addition = a + b       # 10 + 3 = 13
+subtraction = a - b    # 10 - 3 = 7
+multiplication = a * b # 10 * 3 = 30
+division = a / b       # 10 / 3 = 3.3333333333333335
+modulus = a % b        # 10 % 3 = 1
+exponentiation = a ** b # 10 ** 3 = 1000
+floor_division = a // b # 10 // 3 = 3
+
+## 2. Comparison Operators:
+
+==: Equal to
+!=: Not equal to
+<: Less than
+>: Greater than
+<=: Less than or equal to
+>=: Greater than or equal to
+Example:
+
+python
+Copy code
+x = 5
+y = 7
+
+equal = x == y               # False
+not_equal = x != y           # True
+less_than = x < y            # True
+greater_than = x > y         # False
+less_than_or_equal = x <= y  # True
+greater_than_or_equal = x >= y  # False
+
+
+## 3. Logical Operators:
+
+and: Logical AND
+or: Logical OR
+not: Logical NOT
+Example:
+
+python
+Copy code
+p = True
+q = False
+
+logical_and = p and q     # False
+logical_or = p or q       # True
+logical_not_p = not p     # False
+logical_not_q = not q     # True
+## 4. Assignment Operators:
+
+=: Assign a value
++=: Add and assign
+-=: Subtract and assign
+*=: Multiply and assign
+/=: Divide and assign
+%=: Modulus and assign
+**=: Exponentiate and assign
+//=: Floor divide and assign
+Example:
+
+python
+Copy code
+value = 10
+value += 5   # Equivalent to value = value + 5
+value -= 3   # Equivalent to value = value - 3
+value *= 2   # Equivalent to value = value * 2
+value /= 4   # Equivalent to value = value / 4
+
+
+## 5. Bitwise Operators:
+
+&: Bitwise AND
+|: Bitwise OR
+^: Bitwise XOR
+~: Bitwise NOT (complement)
+<<: Left shift
+>>: Right shift
+Example:
+
+python
+Copy code
+m = 5  # Binary: 0101
+n = 3  # Binary: 0011
+
+bitwise_and = m & n  # 0101 & 0011 = 0001 (Decimal 1)
+bitwise_or = m | n   # 0101 | 0011 = 0111 (Decimal 7)
+bitwise_xor = m ^ n  # 0101 ^ 0011 = 0110 (Decimal 6)
+bitwise_not_m = ~m   # ~0101 = 1010 (Decimal -6)
+left_shift = m << 1  # 0101 << 1 = 1010 (Decimal 10)
+right_shift = m >> 1 # 0101 >> 1 = 0010 (Decimal 2)
