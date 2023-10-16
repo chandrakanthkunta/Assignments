@@ -10,10 +10,9 @@
 %: Modulus (remainder)
 **: Exponentiation (power)
 //: Floor Division (quotient, rounded down)
+
 Example:
 
-python
-Copy code
 a = 10
 b = 3
 
@@ -33,10 +32,9 @@ floor_division = a // b # 10 // 3 = 3
 >: Greater than
 <=: Less than or equal to
 >=: Greater than or equal to
+
 Example:
 
-python
-Copy code
 x = 5
 y = 7
 
@@ -53,10 +51,9 @@ greater_than_or_equal = x >= y  # False
 and: Logical AND
 or: Logical OR
 not: Logical NOT
+
 Example:
 
-python
-Copy code
 p = True
 q = False
 
@@ -64,6 +61,7 @@ logical_and = p and q     # False
 logical_or = p or q       # True
 logical_not_p = not p     # False
 logical_not_q = not q     # True
+
 ## 4. Assignment Operators:
 
 =: Assign a value
@@ -74,10 +72,9 @@ logical_not_q = not q     # True
 %=: Modulus and assign
 **=: Exponentiate and assign
 //=: Floor divide and assign
+
 Example:
 
-python
-Copy code
 value = 10
 value += 5   # Equivalent to value = value + 5
 value -= 3   # Equivalent to value = value - 3
@@ -93,10 +90,9 @@ value /= 4   # Equivalent to value = value / 4
 ~: Bitwise NOT (complement)
 <<: Left shift
 >>: Right shift
+
 Example:
 
-python
-Copy code
 m = 5  # Binary: 0101
 n = 3  # Binary: 0011
 
