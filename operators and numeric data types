@@ -102,3 +102,115 @@ bitwise_xor = m ^ n  # 0101 ^ 0011 = 0110 (Decimal 6)
 bitwise_not_m = ~m   # ~0101 = 1010 (Decimal -6)
 left_shift = m << 1  # 0101 << 1 = 1010 (Decimal 10)
 right_shift = m >> 1 # 0101 >> 1 = 0010 (Decimal 2)
+
+
+
+
+
+
+******************************************************xx*************************************************************************
+### Numeric data types 
+Numeric data types in Python are used to represent numbers, including integers and floating-point numbers.
+Here are the main numeric data types in Python:
+
+## int (Integer): Integers are whole numbers, both positive and negative, without a decimal point. They are represented by the int data type.
+
+Example:
+
+x = 5
+y = -10
+
+
+##float (Floating-Point): Floating-point numbers are real numbers with a decimal point. They are represented by the float data type.
+
+Example:
+
+
+a = 3.14
+b = -0.5
+
+## complex (Complex Numbers): Complex numbers have a real part and an imaginary part, represented as x + yj, where x is the real part, and y is the imaginary part.
+
+Example:
+
+z = 2 + 3j
+
+## abs() :
+
+The abs() function is used to calculate the absolute value of a number.
+The absolute value of a number is the distance of that number from zero on the number line, irrespective of its sign. 
+It effectively removes the negative sign from a negative number.
+
+The syntax of the abs() function is as follows:
+
+"  abs(number) "
+
+number: The number for which you want to find the absolute value.
+Here are some examples of using the abs() function in Python:
+
+x = -5
+y = 7
+
+abs_x = abs(x)  # abs_x is 5
+abs_y = abs(y)  # abs_y is 7
+
+
+## is Operator:
+
+The is operator is used to test if two variables reference the same object in memory. 
+it checks if two variables are identical, not just equal.
+It returns True if the variables refer to the same object and False otherwise.
+
+Example:
+
+x = [1, 2, 3]
+y = x  # y references the same object as x
+result = x is y  # True, because x and y refer to the same object
+
+
+## in Operator:
+
+The in operator is used to check if a value is present in a sequence, such as a string, list, tuple, or dictionary.
+It returns True if the value is found in the sequence, and False if it is not.
+
+Example:
+
+
+string = "Hello, World"
+letter = 'o'
+
+result = letter in string  # True, because 'o' is present in the string
+
+
+## Floor (math.floor()):
+
+The floor operation, provided by math.floor(), rounds a number down to the nearest integer that is less than or equal to the original number.
+It effectively removes the decimal part, making the number smaller.
+Example:
+
+import math
+
+x = 7.8
+floor_x = math.floor(x)  # floor_x is 7
+
+
+## Ceil (math.ceil()):
+
+The ceil operation, provided by math.ceil(), rounds a number up to the nearest integer that is greater than or equal to the original number.
+It effectively rounds the number up, even if the decimal part is very small.
+
+Example:
+
+
+import math
+
+y = 4.2
+ceil_y = math.ceil(y)  # ceil_y is 5
+
+
+
+
+
+
+
+
